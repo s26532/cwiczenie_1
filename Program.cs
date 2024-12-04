@@ -12,9 +12,9 @@ static double CalculateAverage(int[] values)
 {
     var result = 0;
 
-    for(int i = 0; i < values.Length; i++)
+    for(int j = 0; j < values.Length; j++)
     {
-        result += values[i];
+        result += values[j];
     }
 
     return result / values.Length;
